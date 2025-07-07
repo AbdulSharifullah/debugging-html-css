@@ -73,3 +73,55 @@ This repository is for educational purposes only. All content is copyrighted by 
 ---
 
 Happy debugging!
+
+HTML Fixes
+Missing lang attribute in <html>
+
+Original:
+<!DOCTYPE html>
+<html>
+
+Fix:
+I added lang="en" to the <html> tag like this:
+<html lang="en">
+
+Image missing alt text
+
+Original:
+<img src="easter-bunny-150-profile.png">
+
+Fix:
+I added an alt attribute to describe the image:
+<img src="easter-bunny-150-profile.png" alt="Easter bunny profile picture">
+
+Header tags were out of order
+
+Original used <h4> before any <h2> or <h3>
+
+Fix:
+I changed it to <h3> to follow proper heading order.
+
+Missing closing tag
+
+Original:
+<h3>Enough Content
+
+Fix:
+I closed it like this: <h3>Enough Content</h3>
+
+CSS Fixes
+Invalid color
+
+Original:
+color: blu;
+
+Fix:
+Changed to a correct color: color: blue;
+
+Misspelled property
+
+Original:
+background-colr: lightblue;
+
+Fix:
+Fixed the spelling: background-color: lightblue;
